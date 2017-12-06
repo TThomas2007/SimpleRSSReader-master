@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:defaultValue="http://feeds.foxnews.com/foxnews/latest"
+        android:key="edit_text_pref"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="Please type in the location of the RSS feed"
+        android:title="Choose RSS URL" />
+</PreferenceScreen>
